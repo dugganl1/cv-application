@@ -40,3 +40,116 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.edit-panel {
+  flex: 1;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem; /* Align with the top of the preview panel */
+}
+
+.preview-panel {
+  flex: 2;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  min-height: 297mm;
+  width: 210mm;
+}
+
+.personal-details {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 90%; /* Adjust this value as needed */
+}
+
+.personal-details h2 {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+.personal-details-content {
+  padding: 1rem;
+}
+
+.personal-details input {
+  width: calc(100% - 1rem); /* Subtracting right padding */
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cv-preview h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cv-preview .contact-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #555;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.form-section h2 {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+.form-section-content {
+  padding: 1rem;
+}
+
+.form-section input {
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
